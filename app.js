@@ -66,7 +66,7 @@ document.getElementById('apply-btn').addEventListener('click', function () {
     const totalIdValue = parseFloat(totalId.innerText);
     const couponCode = totalIdValue * .2;
 
-    if (codeInputValue == 'stevekaku') {
+    if (codeInputValue == 'ishrafil2233') {
         totalId.innerText = totalIdValue - couponCode;
         document.getElementById("apply-btn").disabled = true;
     }
